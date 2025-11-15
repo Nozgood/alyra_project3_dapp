@@ -1,0 +1,1 @@
+export const LOCAL_NODE_ADDRESS = "0x8626f6940e2eb28930efb4cef49b2d1f2c9c1199"

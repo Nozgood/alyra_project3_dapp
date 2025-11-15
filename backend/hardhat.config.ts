@@ -1,15 +1,15 @@
-import hardhatToolboxViemPlugin from "@nomicfoundation/hardhat-toolbox-viem";
+import hardhatToolboxMochaEthersPlugin from "@nomicfoundation/hardhat-toolbox-mocha-ethers";
 import { configVariable, defineConfig } from "hardhat/config";
 
 export default defineConfig({
-  plugins: [hardhatToolboxViemPlugin],
+  plugins: [hardhatToolboxMochaEthersPlugin],
   solidity: {
     profiles: {
       default: {
-        version: "0.8.28",
+        version: "0.8.30",
       },
       production: {
-        version: "0.8.28",
+        version: "0.8.30",
         settings: {
           optimizer: {
             enabled: true,
